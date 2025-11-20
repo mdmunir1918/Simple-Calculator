@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css" class="css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Space+Mono&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+        <title>Calculator</title>
+    
+</head>
+<body>
+    <div id="outermost">
+        <div id="main">
+            <div class="right">
+                   <span style="color: hsl(186, 14%, 43%);">Bill</span><br>   
+                   <div class="inputdiv">
+                    <i class="fa-solid fa-dollar-sign lefticon"></i>
+                    <input id="inp" type="number">
+                    <i class="fa-solid fa-0 Righticon"></i>
+                   </div>
+                    <div>
+                        <div class="textdiv">
+                            <span id="tip">Select Tip %</span>
+                        </div>
+                        <div id="group1">
+                            <button class="bt">5%</button>
+                            <button class="bt">10%</button>
+                            <button class="bt">15%</button>
+                        </div>
+                        <div id="group2">
+                            <button class="bt1">25%</button>
+                            <button class="bt1">50%</button>
+                            <button class="bt1" style="background-color: hsl(186, 14%, 43%);;">Custom</button> 
+                       </div>
+                    </div>
+                    <div class="div1">
+                        <span style="color: hsl(186, 14%, 43%);">Number of People</span>
+                    </div>
+                    <div class="inputdiv2">
+                        <i class="fa fa-user lefticon"></i>
+                    <input id="inp2" type="number">
+                    <i class="fa-solid fa-0 Righticon"></i>
+                    </div>
+            </div>
+           
+        <div class="leftoutermost">
+            <div class="left">
+                <div class="leftdiv1">
+                    <div class="tipbox">
+                     <span class="tipamount">Tip Amount</span><br>
+                     <span class="tipamount" style="font-size: xx-small;">/ person</span>
+                    </div>
+                    <div class="totaldollar" >
+                     <span class="totalbox" >Total</span><br>
+                     <span style="font-size: xx-small;;">/ person</span>
+                    </div>
+                </div>
+                <div class="leftdiv2">
+                    <div class="dollarbox" style="margin-top: 40px;font-weight: bold; font-size: x-large; color: hsl(172, 67%, 45%);">$0.00</div>
+                    <div class="totalamountbox" style="margin-bottom: 5px;font-weight: bold; font-size: x-large; color: hsl(172, 67%, 45%);">$0.00</div>
+                </div>
+            </div>
+             <div class="bottombtn">
+                    <button id="resetbtn">RESET</button>  
+            </div> 
+        </div>
+        </div>
+
+    </div>
+</body>
+</html>
